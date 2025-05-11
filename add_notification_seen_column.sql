@@ -1,0 +1,1 @@
+ALTER TABLE `orders` ADD COLUMN `notification_seen` TINYINT(1) NOT NULL DEFAULT 0;
